@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:JWebCoder/react-multi-lang.git"
+    "url": "git@github.com:NeonGC/react-multi-lang.git"
   },
   "keywords": [
     "react",
@@ -24,23 +24,22 @@
     "i18n"
   ],
   "bugs": {
-    "url": "https://github.com/JWebCoder/react-multi-lang/issues"
+    "url": "https://github.com/NeonGC/react-multi-lang/issues"
   },
   "author": "João Moura <joao87moura@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "react": "^16.1.0"
-  },
   "devDependencies": {
     "@types/hoist-non-react-statics": "^3.3.1",
-    "@types/react": "^16.8.20",
-    "react": "^16.8.6",
-    "rimraf": "^2.6.3",
-    "tslint": "^6.1.0",
-    "typescript": "^3.5.2",
-    "utility-types": "^3.7.0"
+    "@types/react": "^17.0.33",
+    "rimraf": "^3.0.2",
+    "tslint": "^6.1.3",
+    "typescript": "^4.4.4",
+    "utility-types": "^3.10.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2"
   },
   "dependencies": {
-    "hoist-non-react-statics": "^2.3.1"
+    "hoist-non-react-statics": "^3.3.2"
   }
 }
