@@ -51,7 +51,6 @@ function triggerSubscriptions() {
           if (subscribes[componentId] && typeof subscribes[componentId] === 'function') {
             subscribes[componentId]()
           }
-          resolve()
         }
       ).then()
     }
